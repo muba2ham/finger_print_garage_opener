@@ -77,10 +77,10 @@ Wire Layout
 * RX  ->  Digital Pin 0
 + TX  ->  Digital Pin 1
 - IRQ  ->  Digital Pin 6
+- 3.3V  ->  3.3V
 
 **Capacitive Fingerprint Sensor  ->  Relay Shield**
 - VIN   ->  Relay Shield C0M3
-+ 3.3V Power Supply  ->  Relay Shield N03
 
 **Arduino Uno  ->  Relay Shield**
 - 3.3V Power Supply  ->  Relay Shield COM3
