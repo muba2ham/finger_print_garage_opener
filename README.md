@@ -7,7 +7,7 @@ Equipment:
 3. Capacitive Fingerprint Sensor - [Link to finger print sensor used in project](https://wiki.dfrobot.com/Capacitive_Fingerprint_Sensor_SKU_SEN0348)
 4. Garage door opener - should already be installed for this project to be functional
 5. Few jumper wires and wire long enough to run from finger print sensor to arduino and ardunio to both garage door opener terminals
-6. Arduino Uno 5v Power Supply
+6. Arduino Uno 12v Power Supply (12v needed to power relays)
 
 **Note**
 
@@ -80,14 +80,14 @@ Wire Layout
 - 3.3V  ->  3.3V
 
 **Capacitive Fingerprint Sensor  ->  Relay Shield**
-- VIN   ->  Relay Shield C0M3
+- VIN   ->  Relay Shield NO3
 
 **Arduino Uno  ->  Relay Shield**
 - 3.3V Power Supply  ->  Relay Shield COM3
 
-**Relay Shield  ->  Garage Door (n)th Terminal**
-- Relay Shield N0 (n)th  ->  Relay N0 Input
-+ Relay Shield COM (n)th  ->  Relay COM Input
+**Relay Shield  ->  (n)th Garage Door Terminal**
+- Relay Shield N0 (n)th  ->  N0 Input
++ Relay Shield COM (n)th  ->  COM Input
 
 *example of capacitive fingerprint sensor **without** relay shield*
 ![capacitive fingerprint sensor without relay shield one](/example_images/uno_pic_one.jpg)
